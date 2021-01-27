@@ -1,171 +1,167 @@
 *{
-  padding: 0%;
-  margin: 0%;
+    padding: 0%;
+    margin: 0%;
 }
 
 
 
 html {
-  height:100%;
-}
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(54, 124, 204) 50%, rgb(11, 240, 240) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+    
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
 
-body {
-  margin:0;
-}
 
-.bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(54, 124, 204) 50%, rgb(11, 240, 240) 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
-
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
-}
 
   
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
-
-
-
-
 
 .myMargin{
-  margin: 20px;
+    margin: 20px;
 }
 
 .centered {
-  position: absolute;
-  top: 44%;
-  left:68%;
-  transform: translate(-50%, -50%);
-  color:white;
-  font-family:Papyrus;
-  font-size: 55px;
-}
+    position: absolute;
+    top: 44%;
+    left:68%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family:Papyrus;
+    font-size: 55px;
+  }
 
-.center{
-  position:absolute;
-  top:20%;
-  left:35%;
-  width:100%;
-  
-}
+  .center{
+    position:absolute;
+    top:20%;
+    left:35%;
+    width:100%;
+    
+ }
 
-.center1{
-   position: absolute;
-   top: 20%;
-   left:35%;
-   right: 40%;
-  width:100%;
-   
-}
+ .center1{
+     position: absolute;
+     top: 20%;
+     left:35%;
+     right: 40%;
+    width:100%;
+     
+ }
 
 .clearfix{
 
-  font-family:Copperplate;
-  color:rgb(85, 23, 126);
-  
+    font-family:Copperplate;
+    color:rgb(85, 23, 126);
+    
 }
 
 .clearfix h1{
-  color:rgb(89, 16, 107);
-  font-family:Times New Roman;
+    color:rgb(89, 16, 107);
+    font-family:Times New Roman;
 }
 
 .h4{
-  color:rgb(7, 7, 7)
+    color:rgb(7, 7, 7)
 }
 
 .col-lg-4.col-md-8{
-  color:rgb(224, 247, 19)
+    color:rgb(224, 247, 19)
 }
 
 
 
 .elementNAME {
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-}
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
 
 
 
-video{
-  position: absolute;
-  top: 44%;
-  right:68%;
-  transform: translate(-50%, -50%);
-  color:white;
-}
+  video{
+    position: absolute;
+    top: 44%;
+    right:68%;
+    transform: translate(-50%, -50%);
+    color:white;
+  }
 
 
-.password-strength-indicator{
-  font-size: 15px;
-  display: inline-block;
-  height:20px;
-  min-width: 20%;
-  text-align: center;
-  transition: 1s;
-  margin:50px 0;
-  color:rgb(19, 18, 18);
+  .password-strength-indicator{
+    font-size: 15px;
+    display: inline-block;
+    height:20px;
+    min-width: 20%;
+    text-align: center;
+    transition: 1s;
+    margin:50px 0;
+    color:rgb(19, 18, 18);
 
 
-}
+  }
 
 
-.password-strength-indicator.very-weak{
-  background:#cf0000 ;
-  width: 20%;
+  .password-strength-indicator.very-weak{
+    background:#cf0000 ;
+    width: 20%;
 
-}
+  }
+  
+  .password-strength-indicator.weak{
+    background:#f6891f ;
+    width: 40%;
 
-.password-strength-indicator.weak{
-  background:#f6891f ;
-  width: 40%;
+  }
+  
+  .password-strength-indicator.mediocre{
+    background:#eeee00;
+    width: 60%;
 
-}
+  }
+  
+  .password-strength-indicator.strong{
+    background:#99ff33 ;
+    width: 80%;
 
-.password-strength-indicator.mediocre{
-  background:#eeee00;
-  width: 60%;
+  }
+  
+  .password-strength-indicator.very strong{
+    background:#22cf00;
+    width: 100%;
 
-}
-
-.password-strength-indicator.strong{
-  background:#99ff33 ;
-  width: 80%;
-
-}
-
-.password-strength-indicator.very strong{
-  background:#22cf00;
-  width: 100%;
-
-}
-
-
-
-
-
+  }
+  
 
 
 
@@ -179,3 +175,7 @@ video{
 
 
 
+
+
+
+  
